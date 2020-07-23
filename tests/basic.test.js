@@ -1,4 +1,5 @@
-//import {Selector} from "testcafe" :(
+import {Selector} from "testcafe"
+
     fixure ("Getting started with TestCafe")
     .page ("https://devexpress.github.io/testcafe/example/")
 test("My first testcafe test", async t =>{
